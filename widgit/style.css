@@ -1,0 +1,51 @@
+.leaderboard {
+    max-width: 490px;
+    width: 100%;
+    border-radius: 12px;
+}
+.leaderboard header {
+    height: 130px;
+    background-image: repeating-radial-gradient(circle at 1%, transparent 0%, transparent 10%, #7F96FF 10%, rgba(54, 89, 219, .33) 17%), linear-gradient(to right, #5b7cfa, #3659db);
+    color: #fff;
+    position: relative;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.leaderboard__profile {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.leaderboard__profiles {
+    padding: 12px;
+}
+ 
+.leaderboard__name {
+    color: #136F63;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 12px;
+}
+.leaderboard__value {
+    color: #136F63;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: right;  
+}
+
+body {
+    margin: 0;
+    background-color: #eaeaea;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.leaderboard {
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, .4);
+    background-color: #DBFCFF;
+}
